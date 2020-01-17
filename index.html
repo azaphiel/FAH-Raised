@@ -46,7 +46,7 @@
     function statement() {
       
       //17AEDO is old one. Has money record inside. B5F0D1 is the new one = 0.
-      fetch("https://api.raisedforyou.com/api/v1/sessions/B5F0D1/donations", {
+      fetch("https://api.raisedforyou.com/api/v1/sessions/3B7AEB/donations", {
           method: 'GET'
         })
 
@@ -206,13 +206,11 @@
 
     function buttonClickRef() {
       
-      
-
       var perc = 0;
       var i = 0;
 
 
-      perc = 500;
+      perc = 250;
       //with button one manual inc
       //perc += +document.getElementById("donation").value + (money/100);
 
@@ -228,8 +226,8 @@
       document.getElementById('demo2').innerHTML = "€" + i;
       return perc;
     }
+
     //If it hits the aim, it will constantly make it work fireworks!
-      
       // makeFireworks();
     function makeFireworks() {
             // when animating on canvas, it is best to use requestAnimationFrame instead of setTimeout or setInterval

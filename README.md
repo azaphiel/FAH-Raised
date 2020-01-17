@@ -1,2 +1,2 @@
 # tht-raised
-there are changes to commit
+https://api.raisedforyou.com/api/v1/doc.json
