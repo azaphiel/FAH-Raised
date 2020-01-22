@@ -59,14 +59,14 @@
             total1 += data[c].amount; 
 
             while (preload != 50){
-                giftBox();
+                //giftBox();
                 preload++;
               }
               
             while(cnt < data.length){
               cnt++;
-              giftBox(); 
-              var audio = new Audio('Jingle.mp3');
+              //giftBox(); 
+              //var audio = new Audio('Jingle.mp3');
               //audio.play();
               
             }
@@ -206,17 +206,32 @@
 
     function buttonClickRef() {
       
+      //B5F0D1 is old one. Has money record inside.  93D49A is the new one = 0.
+      fetch("https://api.raisedforyou.com/api/v1/sessions/3B7AEB/donations", {
+          method: 'GET'
+        })
+
+        .then(result => result.json())
+        .then(data => {
+          
+          total = 0;
+          for (var c = 0; c < data.length; c++) {
+            total += data[c].amount;
+          }
+          console.log("€" +(total)/100);
+        })
+
       var perc = 0;
       var i = 0;
 
 
-      perc = 250;
+      perc = Math.round((total / 100)+100);
       //with button one manual inc
       //perc += +document.getElementById("donation").value + (money/100);
 
       //removed percentage. activate if you want to use percentage down
       //document.getElementById('here').innerHTML = percentage(perc) + "%";
-      document.getElementById('here').innerHTML = "€" + perc ;
+      document.getElementById('here').innerHTML = "€" + perc;
       document.getElementById('demo2').style.height =(125 - percentage(perc)) + "%";
 
         //if its to make it raise by money up:
