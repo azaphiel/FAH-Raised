@@ -36,7 +36,7 @@
         var bar = new ldBar(".myBar", {
           "stroke": '#f00',
           "stroke-width": 1,
-          "preset": "stripe",
+          "preset": "energy",
           "value": 0
           
          });
