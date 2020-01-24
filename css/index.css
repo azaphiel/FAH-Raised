@@ -77,7 +77,7 @@ hr {
   position: absolute;
 }
 
-@media only screen and (max-height: 800px) {
+@media only screen and (max-height: 700px) {
   .logo {
     position: absolute;
     width: 70%;
@@ -86,9 +86,9 @@ hr {
     
     }
   .myBar, label-center {
-    width: 70% !important;
-    margin-left: 12% !important;
-    margin-top: 0 !important;
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-top: 70% !important;
   }
 
   #percentage {
