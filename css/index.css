@@ -137,15 +137,9 @@ and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio:2)
     overflow-x: hidden;
   }
   body {
-    max-width: min-content !important;
-    
+    position: relative
   }
-  main {
-    max-height: 300px;
-    max-width: 300px;
-    font-family: arial;
-    
-  }
+  
   .logo {
     position: absolute;
     width: 70%;
