@@ -44,11 +44,8 @@ top: 10%;
   visibility: hidden;
 }
 
-@keyframes animateMid {
-  0% {
-    background-position: left 800px top 0px;
-  }
-}
+
+
 hr {
   border-color: white;
   bottom: 0em;
@@ -67,6 +64,7 @@ hr {
   float: right;
   position: absolute;
   width: 18%;
+  height: 10%;
 }
 
 .contribute {
