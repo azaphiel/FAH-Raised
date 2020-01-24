@@ -82,7 +82,7 @@ hr {
   .myBar, label-center {
     width: 70% !important;
     margin-left: 12% !important;
-    margin-top: 22% !important;
+    margin-top: 0 !important;
   }
 
   #percentage {
