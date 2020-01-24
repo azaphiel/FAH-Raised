@@ -3,7 +3,7 @@
     
     setInterval(function() {
         document.getElementById("mybutton").click();
-      }, 1000);
+      }, 3000);
       let money = null;
       let total = null;
       
@@ -27,7 +27,7 @@
         var perc = 0;
         var i = 0;
   
-        perc = Math.round((total / 100)+990);
+        perc = Math.round((total / 100)+490);
         document.getElementById('percentage').innerHTML = "€" + perc;
         document.getElementById('percentageUp').innerHTML = "€1000" ;
         document.getElementById('percentageDown').innerHTML = "€0" ;

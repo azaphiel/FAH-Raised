@@ -164,7 +164,7 @@ hr {
   .pipe {
     position: absolute;
     width: 14%;
-    height: 60%;
+    height: 58%;
     z-index: 2;
     background: linear-gradient(270deg, #E1E1E1 0%, rgba(255, 255, 255, 0) 175%);
     opacity: 0.5;
