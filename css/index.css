@@ -16,7 +16,7 @@ top: 10%;
 
 #percentage {
   color: white;
-  font-size: 3em;
+  font-size: 3rem;
   text-align: left;
   padding-left: 30%;
   margin-top: 135%;
@@ -24,7 +24,7 @@ top: 10%;
 }
 #percentageUp {
   color: white;
-  font-size: 3em;
+  font-size: 3rem;
   position: absolute;
   padding-left: 60%;
   margin-top: 40%;
