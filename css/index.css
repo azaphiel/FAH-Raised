@@ -19,9 +19,9 @@ top: 10%;
 
 .ldBar-label {
   
-  font-size: 3em;
+  font-size: 4vw;
   font-family: arial;
-  font-weight: 500;
+  font-weight: 550;
   transform:rotate(90deg) !important;
   margin-top: 14% !important;
   position: relative;
