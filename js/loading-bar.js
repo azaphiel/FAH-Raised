@@ -732,7 +732,7 @@ out$.presets = presets = {
     "fill": 'data:ldbar/res,gradient(270,2,#c45a74,#fc1d78,#C42F55)',
     "fill-dir": "ltr",
     "fill-background": 'transparent',
-    "fill-background-extrude": 0.2,
+    "fill-background-extrude": 0.9,
     "bbox": "10 5 80 10"
   },
   stripe: {
