@@ -1,4 +1,6 @@
 
+ 
+    
     setInterval(function() {
         document.getElementById("mybutton").click();
       }, 3000);
@@ -27,6 +29,8 @@
   
         perc = Math.round((total / 100)+490);
         document.getElementById('percentage').innerHTML = "€" + perc;
+        document.getElementById('percentageUp').innerHTML = "€1000" ;
+        document.getElementById('percentageDown').innerHTML = "€0" ;
         
         
         var bar = new ldBar(".myBar", {
@@ -43,19 +47,9 @@
         
       }
   
-     
-  
-  
       function percentage(per) {
         return Math.round((100 / 1000) * per);
       }
   
-      $(document).ready(function() {
-        var skillBar = $('.inner');
-        var skillVal = skillBar.attr("data-progress");
-        $(skillBar).animate({
-          height: skillVal
-        }, 3000);
-  
-      })
+    
      
