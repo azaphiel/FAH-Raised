@@ -3,7 +3,7 @@
     
     setInterval(function() {
         document.getElementById("mybutton").click();
-      }, 3000);
+      }, 1000);
       let money = null;
       let total = null;
       
