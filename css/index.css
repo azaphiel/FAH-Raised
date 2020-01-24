@@ -36,8 +36,6 @@ top: 10%;
   position: absolute;
   padding-left: 60%;
   margin-top: 40%;
-  
-  
 }
 
 .btn {
@@ -85,9 +83,7 @@ hr {
 }
 
 @media screen and (max-width: 995px) , screen and (max-height: 700px) {
-  body {
-    background-color: royalblue;
-  }
+  
   .logo {
     position: absolute;
     width: 70%;
@@ -103,7 +99,13 @@ hr {
     transform:rotate(-90deg) !important;
     height: min-content !important;
   }
-
+  #percentageUp {
+    color: white;
+    font-size: 4vw;
+    position: absolute;
+    padding-left: 60%;
+    margin-top: 30%;
+  }
   #percentage {
     color: white;
     font-size: 4vw;
