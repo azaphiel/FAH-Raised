@@ -40,6 +40,7 @@ top: 10%;
   position: absolute;
   padding-left: 60%;
   margin-top: 40%;
+  
 }
 #percentage {
   color: white;
@@ -140,7 +141,7 @@ hr {
     color: white;
     font-size: 4vw;
     text-align: left;
-    padding-left: 30%;
+    padding-left: 35%;
     margin-top: 110%;
     position: absolute;
   }
