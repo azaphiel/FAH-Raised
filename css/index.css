@@ -50,7 +50,7 @@ hr {
   border-color: white;
   bottom: 0em;
   margin-left: 10%;
-  margin-bottom: 26%;
+  margin-bottom: 35%;
   width: 80%;
   border: 2px solid #FFFFFF;
   position: absolute;
@@ -59,7 +59,7 @@ hr {
 
 .qrCode {
   bottom: 0em;
-  padding-bottom: 5%;
+  padding-bottom: 10%;
   padding-left: 7.8%;
   float: right;
   position: absolute;
@@ -69,7 +69,7 @@ hr {
 
 .contribute {
   bottom: 0em;
-  padding-bottom: 7%;
+  padding-bottom: 12%;
   padding-left: 29%;
   
   width: 60%;
@@ -77,4 +77,9 @@ hr {
   position: absolute;
 }
 
+@media only screen and (max-height: 700px) {
+  body {
+    background-color: red;
+  }
+}
 
