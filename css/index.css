@@ -147,7 +147,13 @@ hr {
 
   }
 
-  
+  .myBar {
+    
+    margin-left: 5% !important;
+    margin-top: -5% !important;
+    
+    
+  }
 
   .pipe {
     position: absolute;
