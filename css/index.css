@@ -16,7 +16,7 @@ top: 10%;
 
 #percentage {
   color: white;
-  font-size: 3rem;
+  font-size: 4vw;
   text-align: left;
   padding-left: 30%;
   margin-top: 135%;
@@ -24,7 +24,7 @@ top: 10%;
 }
 #percentageUp {
   color: white;
-  font-size: 3rem;
+  font-size: 4vw;
   position: absolute;
   padding-left: 60%;
   margin-top: 40%;
@@ -64,7 +64,7 @@ hr {
   float: right;
   position: absolute;
   width: 18%;
-  height: 10%;
+  height: auto;
 }
 
 .contribute {
@@ -72,7 +72,7 @@ hr {
   padding-bottom: 7%;
   padding-left: 29%;
   
-  width: 62%;
+  width: 60%;
   height: auto;
   position: absolute;
 }
