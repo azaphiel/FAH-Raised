@@ -77,7 +77,10 @@ hr {
   position: absolute;
 }
 
-@media only screen and (max-height: 700px) {
+@media only screen and (max-height: 900px) {
+  body {
+    background-color: royalblue;
+  }
   .logo {
     position: absolute;
     width: 70%;
