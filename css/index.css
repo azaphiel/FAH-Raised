@@ -137,7 +137,7 @@ and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio:2)
     overflow-x: hidden;
   }
   body {
-    position: relative
+    position: relative;
   }
   
   .logo {
