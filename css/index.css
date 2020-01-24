@@ -1,9 +1,12 @@
-
-body {
-  font-family: arial;
-  background-color: #64BFF5;
+main {
   max-height: 1920px;
   max-width: 1080px;
+  font-family: arial;
+  
+}
+body {
+  
+  background-color: #64BFF5;
 }
 
 .logo {
@@ -12,6 +15,22 @@ width: 70%;
 left: 15%;
 top: 10%;
 
+}
+
+.ldBar-label {
+  
+  font-size: 3em;
+  font-family: arial;
+  font-weight: 500;
+  transform:rotate(90deg) !important;
+  margin-top: 14% !important;
+  position: relative;
+  color: white;
+  
+}
+.ldBar-label:after {
+  content: "0€" !important; /* change from % to USD */
+  
 }
 
 #percentage {

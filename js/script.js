@@ -26,7 +26,7 @@
         var i = 0;
   
         perc = Math.round((total / 100)+490);
-        document.getElementById('percentage').innerHTML = "€" + perc;
+        
         
         
         var bar = new ldBar(".myBar", {
