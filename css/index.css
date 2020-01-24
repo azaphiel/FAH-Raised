@@ -84,8 +84,8 @@ hr {
 
 @media screen and (max-width: 995px) , screen and (max-height: 700px) {
   body {
-    max-width: max-content;
-    max-width: max-content;
+    max-width: 300px;
+    
   }
   .logo {
     position: absolute;
