@@ -196,7 +196,7 @@ hr {
     float: right;
     position: absolute;
     width: 18%;
-    height: 100px;
+    height: auto;
   }
   
   .contribute {
