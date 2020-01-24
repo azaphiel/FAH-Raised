@@ -27,7 +27,7 @@
         var perc = 0;
         var i = 0;
   
-        perc = Math.round((total / 100)+290);
+        perc = Math.round((total / 100)+990);
         document.getElementById('percentage').innerHTML = "€" + perc;
         document.getElementById('percentageUp').innerHTML = "€1000" ;
         document.getElementById('percentageDown').innerHTML = "€0" ;
