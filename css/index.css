@@ -13,7 +13,7 @@ left: 15%;
 top: 10%;
 
 }
-.myBar, label-center {
+.myBar {
   width: 90%;
   margin-left: 5%; 
   margin-top: 50%; 
@@ -98,7 +98,7 @@ hr {
   .myBar {
     width: 90% !important;
     margin-left: 5% !important;
-    margin-top: 10% !important;
+    margin-top: -5% !important;
     position: absolute !important;
     transform:rotate(-90deg) !important;
     height: min-content !important;
