@@ -32,18 +32,15 @@
         document.getElementById('percentageUp').innerHTML = "€1000" ;
         document.getElementById('percentageDown').innerHTML = "€0" ;
         
-        
-        var bar = new ldBar(".myBar", {
-          "stroke": '#f00',
-          "stroke-width": 1,
+       
+         var bar = new ldBar(".myBar", {
           "preset": "energy",
-          "value": 0
-          
          });
-         bar.set(
-         perc/10,     /* target value. */
-         true   /* enable animation. default is true */
-       );
+
+         var bar2 = new ldBar(".myBar3");
+         bar2.set(perc/10, true);
+
+         bar.set(perc/10, true);
         
       }
   

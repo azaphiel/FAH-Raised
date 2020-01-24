@@ -729,7 +729,7 @@ out$.presets = presets = {
     "type": 'fill',
     "path": 'M15 5L85 5A5 5 0 0 1 85 15L15 15A5 5 0 0 1 15 5',
     "stroke": '#f00',
-    "fill": 'data:ldbar/res,gradient(270,2,#c45a74,#fc1d78,#C42F55)',
+    "fill": 'data:ldbar/res,gradient(270,2,#c45a74,#fc1d60,#C42F55)',
     "fill-dir": "ltr",
     "fill-background": 'transparent',
     "fill-background-extrude": 0.9,
@@ -747,7 +747,7 @@ out$.presets = presets = {
   },
   text: {
     "type": 'fill',
-    "img": "data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"70\" height=\"20\" viewBox=\"0 0 70 20\"><text x=\"35\" y=\"10\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"arial\">LOADING</text></svg>",
+    "img": "data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"70\" height=\"20\" viewBox=\"0 0 70 20\"><text x=\"35\" y=\"10\" text-anchor=\"middle\" dominant-baseline=\"central\" font-family=\"arial\">FeelAtHome</text></svg>",
     "fill-background-extrude": 1.3,
     "pattern-size": 100,
     "fill-dir": "ltr",
