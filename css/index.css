@@ -76,7 +76,7 @@ hr {
   position: absolute;
 }
 
-@media only screen and (max-height: 900px) {
+@media screen and (max-width: 995px) , screen and (max-height: 700px) {
   body {
     background-color: royalblue;
   }
@@ -90,7 +90,7 @@ hr {
   .myBar, label-center {
     width: 90% !important;
     margin-left: 5% !important;
-    margin-top: 70% !important;
+    margin-top: 50% !important;
   }
 
   #percentage {
