@@ -98,7 +98,7 @@ hr {
   .myBar {
     width: 90% !important;
     margin-left: 5% !important;
-    margin-top: 50% !important;
+    margin-top: 10% !important;
     position: absolute !important;
     transform:rotate(-90deg) !important;
     height: min-content !important;
