@@ -77,9 +77,20 @@ hr {
   position: absolute;
 }
 
-@media only screen and (max-height: 700px) {
-  body {
-    background-color: red;
+@media only screen and (max-height: 800px) {
+ 
+  .myBar, label-center {
+    width: 70% !important;
+    margin-left: 12% !important;
+  }
+
+  #percentage {
+    color: white;
+    font-size: 4vw;
+    text-align: left;
+    padding-left: 30%;
+    margin-top: 110%;
+    position: absolute;
   }
 }
 
