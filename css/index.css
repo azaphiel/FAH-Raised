@@ -13,14 +13,6 @@ left: 15%;
 top: 10%;
 
 }
-.myBar {
-  width: 90%;
-  margin-left: 5%; 
-  margin-top: 50%; 
-  position: absolute;
-  transform:rotate(-90deg);
-  height: min-content;
-}
 
 #percentage {
   color: white;
