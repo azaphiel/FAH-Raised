@@ -54,7 +54,6 @@ hr {
   width: 80%;
   border: 2px solid #FFFFFF;
   position: absolute;
-  
 }
 
 .qrCode {
@@ -85,7 +84,7 @@ hr {
     position: absolute;
     width: 70%;
     left: 15%;
-    top: 5% !important;
+    top: 2% !important;
     
     }
   .myBar, label-center {
@@ -100,6 +99,34 @@ hr {
     text-align: left;
     padding-left: 30%;
     margin-top: 110%;
+    position: absolute;
+  }
+  hr {
+    border-color: white;
+    bottom: 0em;
+    margin-left: 10%;
+    margin-bottom: 28%;
+    width: 80%;
+    border: 2px solid #FFFFFF;
+    position: absolute;
+  }
+  .qrCode {
+    bottom: 0em;
+    padding-bottom: 5%;
+    padding-left: 7.8%;
+    float: right;
+    position: absolute;
+    width: 18%;
+    height: auto;
+  }
+  
+  .contribute {
+    bottom: 0em;
+    padding-bottom: 7%;
+    padding-left: 29%;
+    
+    width: 60%;
+    height: auto;
     position: absolute;
   }
 }
