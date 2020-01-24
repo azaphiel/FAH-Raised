@@ -121,7 +121,29 @@ hr {
     transform:rotate(-90deg) !important;
     height: min-content !important;
   }
-  
+  #percentageUp {
+    color: white;
+    font-size: 4vw;
+    position: absolute;
+    padding-left: 60%;
+    margin-top: 25%;
+  }
+  #percentage {
+    color: white;
+    font-size: 4vw;
+    text-align: left;
+    padding-left: 60%;
+    margin-top: 100%;
+    position: absolute;
+  }
+  #percentageDown {
+    color: white;
+    font-size: 4vw;
+    text-align: left;
+    padding-left: 30%;
+    margin-top: 100%;
+    position: absolute;
+  }
   hr {
     border-color: white;
     bottom: 0em;
