@@ -6,11 +6,8 @@ body {
   z-index: 3;
   position: absolute;
   display: none;
-  -webkit-transition: opacity 2s ease-in;
-    -moz-transition: opacity 2s ease-in;
-    -o-transition: opacity 2s ease-in;
-    -ms-transition: opacity 2s ease-in;
-    transition: opacity 2s ease-in;
+  top: 0;
+  right: 0;
 }
 .logo {
   position: absolute;
@@ -147,7 +144,7 @@ hr {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
-
+  
   .logo {
     position: absolute;
     width: 70%;
