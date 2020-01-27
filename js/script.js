@@ -1,5 +1,52 @@
+var image = 0;
 
- 
+setInterval(function() {
+  document.getElementById("mybutton2").click();
+}, 60*1000);
+
+function advertisement() {
+  setTimeout(function() {
+    document.getElementById(image).style.display='inline'
+  }, 5*1000);
+  
+  setTimeout(function() {
+    document.getElementById(image).style.display='none'
+    image++;
+  }, 10*1000);
+  //-------------------------------------------------
+  setTimeout(function() {
+    document.getElementById(image).style.display='inline'
+  }, 15*1000);
+  
+  setTimeout(function() {
+    document.getElementById(image).style.display='none'
+    image++;
+  }, 20*1000);
+//-------------------------------------------------
+  setTimeout(function() {
+    document.getElementById(image).style.display='inline'
+  }, 25*1000);
+  
+  setTimeout(function() {
+    document.getElementById(image).style.display='none'
+    image++;
+  }, 30*1000);
+//-------------------------------------------------
+  setTimeout(function() {
+    document.getElementById(image).style.display='inline'
+  }, 35*1000);
+  
+  setTimeout(function() {
+    document.getElementById(image).style.display='none'
+    image++;
+  }, 40*1000);
+  //-------------------------------------------------
+  image = 0;
+}
+  
+  
+
+
     
     setInterval(function() {
         document.getElementById("mybutton").click();
@@ -37,8 +84,8 @@
           "preset": "energy",
          });
 
-         var bar2 = new ldBar(".myBar3");
-         bar2.set(perc/10, true);
+         
+        
 
          bar.set(perc/10, true);
         
