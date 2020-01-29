@@ -266,7 +266,7 @@ hr {
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
     width: 100vw;
     height:100vh;
-    
+    z-index: -100;
 }
 
 .circles{
@@ -364,6 +364,12 @@ hr {
     height: 150px;
     animation-delay: 0s;
     animation-duration: 11s;
+}
+.circles li:nth-child(11){
+  left: 1%;
+  width: 180px;
+  height: 180px;
+  animation-delay: 0s;
 }
 
 
