@@ -1,3 +1,7 @@
+setInterval(function() {
+  document.getElementById("loader").style.display='none';
+}, 3*1000);
+
 var image = 0;
 
 setInterval(function() {
@@ -45,11 +49,8 @@ function advertisement() {
 }
   
   
-
-
-    
     setInterval(function() {
-        document.getElementById("mybutton").click();
+      buttonClickRef()
       }, 3000);
       let money = null;
       let total = null;
@@ -74,18 +75,15 @@ function advertisement() {
         var perc = 0;
         var i = 0;
   
-        perc = Math.round((total / 100)+490);
+        perc = Math.round((total / 100)+790);
         document.getElementById('percentage').innerHTML = "€" + perc;
         document.getElementById('percentageUp').innerHTML = "€1000" ;
         document.getElementById('percentageDown').innerHTML = "€0" ;
-        
+        document.getElementById("pipe").style.display='inline';
        
          var bar = new ldBar(".myBar", {
           "preset": "energy",
          });
-
-         
-        
 
          bar.set(perc/10, true);
         

@@ -729,7 +729,8 @@ out$.presets = presets = {
     "type": 'fill',
     "path": 'M15 5L85 5A5 5 0 0 1 85 15L15 15A5 5 0 0 1 15 5',
     "stroke": '#f00',
-    "fill": 'data:ldbar/res,gradient(270,2,#c45a74,#fc1d60,#C42F55)',
+    "fill": 'data:ldbar/res,gradient(230,4,#F2709C,#FF9472,#F2709C)',
+    
     "fill-dir": "ltr",
     "fill-background": 'transparent',
     "fill-background-extrude": 0.9,
