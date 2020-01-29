@@ -1,6 +1,6 @@
 setInterval(function() {
   document.getElementById("loader").style.display='none';
-}, 2500);
+}, 2800);
 
 var image = 0;
 
