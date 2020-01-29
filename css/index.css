@@ -219,6 +219,7 @@ hr {
   position: absolute;
   width: 18%;
   height: auto;
+  z-index: 0;
 }
 
 .contribute {
@@ -229,7 +230,7 @@ hr {
   width: 60%;
   height: auto;
   position: absolute;
-  z-index: -1;
+  z-index: 0;
 }
 
 .pipe {
