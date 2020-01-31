@@ -212,9 +212,6 @@ body {
 
 }
 
-
-
-
 hr {
   border-color: white;
   bottom: 0em;
@@ -272,7 +269,7 @@ hr {
 .context {
     width: 100%;
     position: absolute;
-    top:50vh;
+    top:90vh;
     
 }
 
@@ -299,7 +296,7 @@ hr {
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.350);
     animation: animate 25s linear infinite;
     bottom: -10%;
     
