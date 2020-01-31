@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
   background-color: #64BFF5;
 }
 .adv {
@@ -13,10 +15,12 @@ body {
   text-align: center;
   font-size: 2.5em;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0px 5.55564px 3.55564px rgba(0, 0, 0, 0.25);
+
+  font-weight: bolder;
   margin-top: 35%;
   position: absolute;
-  margin-left: 15%;
+  margin-left: 10%;
 }
 .logo {
   position: absolute;
@@ -172,11 +176,12 @@ body {
 #percentageUp {
   color: white;
   font-size: 4vw;
+  
   font-style: normal;
   text-align: left;
-  font-weight: bold;
+
   position: absolute;
-  padding-left: 32%;
+  padding-left: 29%;
   margin-top: 50%;
   text-shadow: 0px 5.55564px 3.55564px rgba(0, 0, 0, 0.25);
 
