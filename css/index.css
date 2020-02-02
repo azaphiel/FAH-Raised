@@ -255,7 +255,16 @@ hr {
   height: auto;
   z-index: 1;
 }
+.bitly {
+  color: white;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 2vw;
+  width: 5%;
+  margin-top: 167%;
+  margin-left: 29%;
+  position: absolute;
 
+}
 .contribute {
   bottom: 0em;
   padding-bottom: 12%;
