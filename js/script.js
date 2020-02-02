@@ -67,7 +67,8 @@ function advertisement() {
             
             total = 0;
             for (var c = 0; c < data.length; c++) {
-              total += data[c].amount;
+              total += data[c].amount+29;
+              console.log(total)
             }
             console.log("€" +(total)/100);
           })
@@ -75,7 +76,8 @@ function advertisement() {
         var perc = 0;
         var i = 0;
   
-        perc = Math.round((total / 100)+0);
+        perc = Math.round((total / 100));
+        
         document.getElementById('percentage').innerHTML = "€" + perc;
         document.getElementById('percentageUp').innerHTML = "€1000" ;
         document.getElementById('percentageDown').innerHTML = "€0" ;
