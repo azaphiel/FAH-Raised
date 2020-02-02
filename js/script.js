@@ -75,7 +75,7 @@ function advertisement() {
         var perc = 0;
         var i = 0;
   
-        perc = Math.round((total / 100)+490);
+        perc = Math.round((total / 100)+0);
         document.getElementById('percentage').innerHTML = "€" + perc;
         document.getElementById('percentageUp').innerHTML = "€1000" ;
         document.getElementById('percentageDown').innerHTML = "€0" ;
