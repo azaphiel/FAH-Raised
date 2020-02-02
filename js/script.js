@@ -54,6 +54,7 @@ function advertisement() {
       }, 3000);
       let money = null;
       let total = null;
+      let lateC = 0;
       
       
       function buttonClickRef() {
@@ -68,9 +69,21 @@ function advertisement() {
             total = 0;
             for (var c = 0; c < data.length; c++) {
               total += data[c].amount+29;
-              console.log(total)
-            }
-            console.log("€" +(total)/100);
+              
+              if(data.length != lateC) {
+                setTimeout(function() {
+                  document.getElementById("message").style.display='inline'
+                }, (3*1000));
+                setTimeout(function() {
+                  document.getElementById("message").style.display='none'
+                }, (8*1000));
+
+                
+              }
+              lateC= data.length;
+              }
+              
+            
           })
   
         var perc = 0;
