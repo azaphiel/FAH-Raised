@@ -71,16 +71,20 @@ function advertisement() {
               total += data[c].amount+29;
               
               if(data.length != lateC) {
+                console.log("it must be not equal"+ "data lenght is:" +data.length 
+              +"and counter is:" +lateC)
                 setTimeout(function() {
                   document.getElementById("message").style.display='inline'
                 }, (3*1000));
                 setTimeout(function() {
                   document.getElementById("message").style.display='none'
                 }, (8*1000));
-
-                
+                lateC= data.length;
+                console.log("this is late one must be equal"+ "data lenght is:" +data.length 
+              +"and" +lateC)
               }
-              lateC= data.length;
+              
+              
               }
               
             
