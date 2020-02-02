@@ -6,7 +6,7 @@ var image = 0;
 
 setInterval(function() {
   advertisement();
-}, 1*(1*1000));
+}, 60*(60*1000));
 
 function advertisement() {
   setTimeout(function() {
